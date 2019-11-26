@@ -12,7 +12,7 @@ public class TestController {
 		@ResponseBody
 		public String getInfo() {
 			
-			return "A U OK?";
+			return "A rU OK?";
 		}
 		
 		@Value("${server.port}")
